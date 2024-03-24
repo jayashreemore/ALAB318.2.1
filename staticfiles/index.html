@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Download ALAB 318.2.1</title>
+
+</head>
+
+<body>
+    <h1> Image Download Example</h1>
+    <p>Spring is here lets go to Washington and see Cherry Blosssom. Forsythia ,Daffodils and Crocus flowers brings Spring.
+        Thanks to Mother Earth and nature for this Beautiful season after boring Winter.Happy Equinox to all
+    </p>
+    <img src="./images/cherryblossom.jpg" alt="Spring Images">
+
+    <!-- Button to trigger file download -->
+    <button id="downloadBtn">Download Image</button>
+
+    <script>
+        // Add event listener to download button
+        document.getElementById('downloadBtn').addEventListener('click', function () {
+            // Redirect to the download route
+            window.location.href = '/download';
+        });
+    </script>
+</body>
+
+</html>
